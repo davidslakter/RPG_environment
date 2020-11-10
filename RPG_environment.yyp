@@ -1,5 +1,7 @@
 {
   "resources": [
+    {"id":{"name":"obj_villager","path":"objects/obj_villager/obj_villager.yy",},"order":1,},
+    {"id":{"name":"spr_villager","path":"sprites/spr_villager/spr_villager.yy",},"order":1,},
     {"id":{"name":"spr_tumbleweed","path":"sprites/spr_tumbleweed/spr_tumbleweed.yy",},"order":0,},
     {"id":{"name":"obj_tumbleweed","path":"objects/obj_tumbleweed/obj_tumbleweed.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
