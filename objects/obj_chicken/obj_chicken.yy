@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "chickenprofilewalkx4",
-    "path": "sprites/chickenprofilewalkx4/chickenprofilewalkx4.yy",
+    "name": "chicken_walk",
+    "path": "sprites/chicken_walk/chicken_walk.yy",
   },
   "solid": false,
   "visible": true,
@@ -22,6 +22,9 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_chicken","path":"objects/obj_chicken/obj_chicken.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"obj_chicken","path":"objects/obj_chicken/obj_chicken.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"parent":{"name":"obj_chicken","path":"objects/obj_chicken/obj_chicken.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":1,"eventType":2,"collisionObjectId":null,"parent":{"name":"obj_chicken","path":"objects/obj_chicken/obj_chicken.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
