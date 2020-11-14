@@ -7,6 +7,7 @@
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":3,},
     {"id":{"name":"spr_no_move","path":"sprites/spr_no_move/spr_no_move.yy",},"order":17,},
     {"id":{"name":"obj_no_move","path":"objects/obj_no_move/obj_no_move.yy",},"order":12,},
+    {"id":{"name":"obJ_depth","path":"objects/obJ_depth/obJ_depth.yy",},"order":13,},
     {"id":{"name":"chickenprofilewalkx4","path":"sprites/chickenprofilewalkx4/chickenprofilewalkx4.yy",},"order":15,},
     {"id":{"name":"obj_shadow","path":"objects/obj_shadow/obj_shadow.yy",},"order":11,},
     {"id":{"name":"tumbleweed_path","path":"paths/tumbleweed_path/tumbleweed_path.yy",},"order":1,},
