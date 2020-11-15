@@ -2,28 +2,34 @@
 // You can write your code in this editor
 event_inherited()
 
+hspd = 0
+vspd = 0
 
 if (keyboard_check(vk_right)){
-	
-	x += 1
-	sprite_index = spr_player_walk
-	image_xscale = 1
-	
+	hspd += 1
 }
-else if (keyboard_check(vk_left)){
-	x -= 1
-	sprite_index = spr_player_walk
-	image_xscale = -1
+if (keyboard_check(vk_left)){
+	hspd -= 1
 }
-else if (keyboard_check(vk_up)){
-	y -= 1
-	sprite_index = spr_player_walk
+if (keyboard_check(vk_up)){
+	vspd -= 1
 }
-else if (keyboard_check(vk_down)){
-	y += 1
-	sprite_index = spr_player_walk
+if (keyboard_check(vk_down)){
+	vspd += 1
 }
 
+if (hspd * hspd + vspd * vspd > 0){
+	sprite_index = spr_player_walk
+}
 else {
 	sprite_index = spr_player_idle	
 }
+
+if (sign(hspd) != 0){
+	image_xscale = sign(hspd)
+}
+
+hspd *= mspd
+vspd *= mspd
+
+MoveCollide()
